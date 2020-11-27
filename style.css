@@ -5,17 +5,18 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #E1E1E1;
+    background-color: white;
     font-family: 'Lato', sans-serif;
 }
 
 .menu {
     display: flex;
     justify-content: center;
-    height: 35px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 5px;
+    height: 2em;
+    margin-top: 0.75em;
+    margin-bottom: 1.25em;
+    padding: 0.3em;
+    width: 100%;
 }
 
 .button {
@@ -48,13 +49,47 @@ body {
     background-position: center;
 }
 
-.profile {
+.profile-block {
+    width: 80%;
+    height: 18em;
+    padding-left: 12em;
+    padding-top: 4em;
+    position: relative;
+    background-color: white;
+}
+
+.profile-block img {
+    height: 10em;
+    position: absolute;
+    left: 3em;
+    top: 4em;
+    box-shadow: 10px 5px 20px black;
+}
+
+.profile1 {
     float: left;
-    width: 50%;
+    width: 25%;
+    margin: 0.5em 2em 0;
+    line-height: 2em;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.profile1 span {
+    color: goldenrod;
+}
+
+.profile2 {
+    float: left;
+    width: 60%;
+    margin: 0.5em 2em 0;
+    font-size: 1.2em;
 }
 
 .header {
-    padding-left: 20px;
+    padding-left: 3em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
 }
 
 .tech {
@@ -80,4 +115,21 @@ body {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2em;
+    padding-top: 0.5em;
+    background: linear-gradient(90deg, rgba(225, 225, 225, 1) 16%, rgba(255, 255, 255, 1) 76%);
+}
+
+.profile-container {
+    width: 80%;
+    height: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    padding-top: 0.5em;
+    background: linear-gradient(90deg, rgba(225, 225, 225, 1) 16%, rgba(255, 255, 255, 1) 76%);
+}
+
+h1 {
+    margin: 0;
 }
