@@ -11,6 +11,8 @@ Jednakże już macie cały zespół i mentora, który z pewnością będzie Was 
 
 ## Projekt HTML & CSS — Wizytówka / Portfolio
 
+https://arvanes.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/
+
 ### Zasady wykonywania projektu (wspólne dla wszystkich grup i mentorów): 
 
 ##### W projekcie każdy z uczestników powinien zaprezentować praktyczną znajomość poniższych zagadnień związanych z HTML & CSS:
