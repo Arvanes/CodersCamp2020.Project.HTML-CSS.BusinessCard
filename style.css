@@ -16,7 +16,6 @@ body {
     margin-top: 0.75em;
     margin-bottom: 1.25em;
     padding: 0.3em;
-    width: 100%;
 }
 
 .button {
@@ -37,11 +36,11 @@ body {
 
 .topBanner {
     color: white;
+    width: 100%;
+    height: 40vh;
     text-align: center;
     padding-top: 15vh;
     font-size: 3em;
-    width: 100%;
-    height: 40vh;
     overflow: hidden;
     background-image: url(img/baner.jpg);
     background-repeat: no-repeat;
@@ -114,8 +113,58 @@ body {
     word-wrap: break-word;
 }
 
-.hobby-container {
+.hobby-header {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.hobby-block {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    height: 30em;
+}
+
+.item1 {
+    grid-area: 1 / 1 / 2 / 4;
+    background-image: url('img/playstation.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 20%;
+}
+
+.item2 {
+    grid-area: 1 / 4 / 2 / 6;
+    background-image: url(img/bike.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item3 {
+    grid-area: 1 / 6 / 3 / 7;
+    background-image: url('img/hiking.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item4 {
+    grid-area: 2 / 3 / 3 / 6;
+    background-image: url('img/books.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item5 {
+    grid-area: 2 / 1 / 3 / 3;
+    background-image: url('img/boardgame.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .dane-kontaktowe {
@@ -156,6 +205,13 @@ body {
     padding-top: 0.5em;
     padding-bottom: 3em;
     background: linear-gradient(90deg, rgba(225, 225, 225, 1) 16%, rgba(255, 255, 255, 1) 76%);
+}
+
+.hobby-container {
+    width: 100%;
+    margin-top: 2em;
+    padding-top: 0.5em;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 15%, rgba(225, 225, 225, 1) 50%, rgba(255, 255, 255, 1) 85%);
 }
 
 h1 {
