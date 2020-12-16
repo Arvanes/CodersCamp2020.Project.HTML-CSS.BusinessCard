@@ -183,7 +183,13 @@ h1 {
 .dane-kontaktowe {
     float: left;
     width: 33%;
+    padding: 2em;
     background-color: var(--main-color);
+    color: white;
+}
+
+.material-icons {
+    color: black;
 }
 
 .kontakt-block {
@@ -191,25 +197,48 @@ h1 {
 }
 
 .fa {
-    font-size: 30px;
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
-.formularz {
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.wiadomosc {
     float: left;
-    width: 66%;
+    width: 58%;
+    padding: 2em;
+    background-color: white;
+}
+
+.wiadomosc h1 {
+    margin-bottom: 2%;
+}
+
+.pole-formularza {
+    width: 70%;
+    margin-bottom: 1%;
+}
+
+.pole-formularza:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
 }
 
 .container {
-    width: 80vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5em;
-    padding-top: 0.5em;
-    background: linear-gradient(90deg, rgba(225, 225, 225, 1) 16%, rgba(255, 255, 255, 1) 76%);
-}
-
-.kontakt-container {
-    position: relative;
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
@@ -226,4 +255,8 @@ h1 {
     padding-bottom: 3em;
 }
 
-.hobby-container {}
+.footer {
+    text-align: center;
+    margin: 2em;
+    color: lightslategray;
+}
