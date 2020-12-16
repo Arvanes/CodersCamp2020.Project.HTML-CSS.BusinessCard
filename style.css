@@ -220,7 +220,7 @@ h1 {
 
 .wiadomosc {
     float: left;
-    width: 58%;
+    width: 40%;
     padding: 2em;
     background-color: white;
 }
@@ -230,7 +230,7 @@ h1 {
 }
 
 .pole-formularza {
-    width: 70%;
+    width: 100%;
     margin-bottom: 1%;
 }
 
