@@ -232,6 +232,7 @@ h1 {
 .pole-formularza {
     width: 100%;
     margin-bottom: 1%;
+    box-sizing: border-box;
 }
 
 .pole-formularza:hover {
@@ -253,6 +254,10 @@ h1 {
 
 .skills-container {
     padding-bottom: 3em;
+}
+
+.hobby-container {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 15%, rgba(225, 225, 225, 1) 50%, rgba(255, 255, 255, 1) 85%);
 }
 
 .footer {
