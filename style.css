@@ -17,7 +17,7 @@ h1 {
     margin: 0;
 }
 
-.menu {
+nav {
     display: flex;
     justify-content: center;
     height: 2em;
@@ -188,8 +188,20 @@ h1 {
     color: white;
 }
 
-.material-icons {
+@keyframes poczta {
+    0% {color: black; left: 0%;}
+    50% {color: white; rotate: 360deg; left: 100%;}
+    100% {color: black; left: 0%;}
+}
+
+.animacja {
+    position: relative;
+    width: 20px;
     color: black;
+    animation-name: poczta;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
 }
 
 .kontakt-block {
@@ -260,7 +272,7 @@ h1 {
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 15%, rgba(225, 225, 225, 1) 50%, rgba(255, 255, 255, 1) 85%);
 }
 
-.footer {
+footer {
     text-align: center;
     margin: 2em;
     color: lightslategray;
