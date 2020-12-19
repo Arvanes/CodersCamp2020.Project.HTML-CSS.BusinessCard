@@ -20,7 +20,7 @@ h1 {
 nav {
     display: flex;
     justify-content: center;
-    height: 2em;
+    /* height: 2em; */
     margin-top: 0.75em;
     margin-bottom: 1.25em;
     padding: 0.3em;
@@ -29,7 +29,9 @@ nav {
 .button {
     float: left;
     text-align: center;
-    font-size: 1.5em;
+    border-bottom: solid rgba(0, 0, 0, 0) 5px;
+    font-size: 1.6vw;
+    /* font-size: 2em; */
     padding: 0 1em;
 }
 
@@ -321,6 +323,9 @@ footer {
 }
 
 @media (max-width: 800px) {
+    .kontakt-container {
+        width: 100%;
+    }
     .dane-kontaktowe {
         width: 100%;
     }
