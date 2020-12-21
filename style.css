@@ -23,6 +23,7 @@ nav {
     top: 0;
     background-color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 0.75em;
     margin-bottom: 1.25em;
@@ -33,7 +34,7 @@ nav {
     float: left;
     text-align: center;
     border-bottom: solid rgba(0, 0, 0, 0) 5px;
-    font-size: 1.6vw;
+    font-size: 2em;
     padding: 0 1em;
 }
 
@@ -64,7 +65,6 @@ nav {
     font-weight: 700;
     font-size: 1.5em;
     color: var(--main-color);
-    /* text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white; */
 }
 
 .profile-block {
@@ -191,7 +191,7 @@ nav {
     background-position: center;
 }
 
-.dane-kontaktowe {
+.dane-contactowe {
     float: left;
     width: 33%;
     padding: 2em;
@@ -215,7 +215,7 @@ nav {
     animation-iteration-count: infinite;
 }
 
-.kontakt-block {
+.contact-block {
     margin-top: 20%;
 }
 
@@ -287,7 +287,7 @@ nav {
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 15%, rgba(161, 161, 161, 1) 50%, rgba(255, 255, 255, 1) 85%);
 }
 
-.kontakt-container {
+.contact-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -307,9 +307,6 @@ footer {
     .profile-container {
         width: 100%;
     }
-}
-
-@media (max-width: 800px) {
     .skills-block {
         flex-direction: column;
         align-items: center;
@@ -324,17 +321,17 @@ footer {
     }
     .tech:nth-of-type(3) {
         border-bottom: none;
-    }
-}
-
-@media (max-width: 800px) {
-    .kontakt-container {
+    } 
+    .contact-container {
         width: 100%;
     }
-    .dane-kontaktowe {
+    .dane-contactowe {
         width: 100%;
     }
     .wiadomosc {
         width: 100%;
+    }
+    .button {
+        font-size: 1.5em;
     }
 }
